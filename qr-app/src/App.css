@@ -14,15 +14,16 @@
 }
 
 .App-header {
-  background-color: #384e79;
+  background-color: transparent; /* Make it transparent so it doesn't override your gradient */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(106, 48, 48);
 }
+
 
 .App-link {
   color: #61dafb;
@@ -35,19 +36,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.bg-qroll {
-  background: linear-gradient(to bottom right, #e0f2fe, #0e455f);
-}
-
-.bg-pattern {
-  background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-  background-size: 20px 20px;
-}
-
-.card-shadow {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }

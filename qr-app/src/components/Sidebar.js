@@ -4,7 +4,7 @@ import { FileText, BarChart2, User, LogOut } from 'lucide-react';
 
 const Sidebar = () => {
   return (
-    <aside className="bg-white w-64 min-h-screen flex flex-col">
+    <aside className="bg-white w-60 min-h-screen flex flex-col">
       <nav className="flex-1 px-2 py-4">
         <Link to="/attendance" className="flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
           <FileText className="mr-3" />
